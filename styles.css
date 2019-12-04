@@ -22,21 +22,21 @@
     outline: none;
   }
   
-  /* [role="button"]:focus::before {
+  [role="button"]:focus::before {
     position: absolute;
     z-index: -1;
   
     /* button border width - outline width - offset */
-    /* top: calc(-1px - 3px - 3px);
+     top: calc(-1px - 3px - 3px);
     right: calc(-1px - 3px - 3px);
     bottom: calc(-1px - 3px - 3px);
     left: calc(-1px - 3px - 3px);
     border: 3px solid hsl(213, 71%, 49%); 
   
     /* button border radius + outline width + offset */
-    /* border-radius: calc(5px + 3px + 3px);
+     border-radius: calc(5px + 3px + 3px);
     content: '';
-  } */ 
+  } 
   
   [role="button"]:active {
     border-color: hsl(213, 71%, 49%);
@@ -103,9 +103,6 @@
     background: white;
 }
 
-*:focus {
-    outline: none;
-}
 
 .container {
     width: 80%;
