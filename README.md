@@ -1,2 +1,2 @@
-# bad-example-keyboard
-https://git.yale.edu/pages/sl452/bad-example-keyboard/
+# focus-example-keyboard
+https://slynch-github.github.io/focus-keyboard-example/
